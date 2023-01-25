@@ -14,3 +14,5 @@ def divide(num1, num2):
     return int(num1/num2)
 #could also use // to just return the nearest whole number and ignore any remainder.
 
+def length_of_string(string_to_test):
+    return len(string_to_test)

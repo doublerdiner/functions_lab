@@ -16,3 +16,6 @@ def divide(num1, num2):
 
 def length_of_string(string_to_test):
     return len(string_to_test)
+
+def join_string(first_string, second_string):
+    return first_string + second_string

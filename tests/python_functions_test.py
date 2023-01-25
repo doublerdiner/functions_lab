@@ -75,12 +75,10 @@ class TestPythonFunctionPractice(unittest.TestCase):
     reverse_hello_world = reverse_string("hello world")
     self.assertEqual("dlrow olleh", reverse_hello_world)
 
-  #Given a value in farenheit, convert this into celsius.
-  @unittest.skip("delete this line to run the test")
+  #Given a value in fahrenheit, convert this into celsius.
   def test_fahrenheit_to_celsius(self):
-    #add test code here
-    pass
-
+    fahrenheit_59 = fahrenheit_to_celsius(59)
+    self.assertEqual(15, fahrenheit_59)
 
 if __name__ == '__main__':
     unittest.main()

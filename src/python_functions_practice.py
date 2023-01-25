@@ -42,3 +42,5 @@ def reverse_string(entered_text):
     # reversed_words_list = entered_text_split[::-1]
     # return " ".join(reversed_words_list)
 
+def fahrenheit_to_celsius(num):
+    return (num-32)*(5/9)

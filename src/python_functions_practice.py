@@ -34,3 +34,11 @@ def number_to_short_month_name(month_int):
 
 def volume_of_cube(num):
     return num**3
+
+def reverse_string(entered_text):
+    return entered_text[::-1]
+#If you want to reverse the words and not the text you would use:
+    # entered_text_split = entered_text.split()
+    # reversed_words_list = entered_text_split[::-1]
+    # return " ".join(reversed_words_list)
+
